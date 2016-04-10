@@ -7,7 +7,7 @@
 ##setinverse and getinverse cumpute the inverse for the matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
-  inv <- NULL
+  inv <- NULL 
   set <- function(y){
     x <<- y
     inv <<- NULL #Store
@@ -37,3 +37,5 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inv) #set
   inv #print the inverse
 }
+
+#This is A2
