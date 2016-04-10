@@ -3,7 +3,7 @@
 ## if it is not calculated yet
 
 ## I create a special matrix that can run four functions
-## with set we sen to cache, get bring back the matrix 
+## with set we send to cache, get brings back the matrix 
 ##setinverse and getinverse cumpute the inverse for the matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
